@@ -54,7 +54,6 @@
   font-size: 102px;
   font-weight: 600;
   z-index: 5;
-  border: 1px solid black; /* ПОТОМ УБРАТЬ!!   */
 }
 
 .header__subtitle {
@@ -101,7 +100,6 @@
 .description {
   display: flex;
   position: relative;
-  justify-content: center;
 }
 
 .two-columns {
@@ -109,8 +107,7 @@
   position: relative;
   justify-content:space-between;
   width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 
 .two-columns__brief{
@@ -157,12 +154,11 @@
   position: relative;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 .secthion-title {
   width: 60%;
-  margin: 100px 0 20px 0;
+  margin: 0 0 20px;
   padding: 0;
   line-height: 1.15;
   font-size: 60px;
@@ -271,15 +267,18 @@
 .secthion-title_theme_dark {
   color: white;
   margin: 90px 0 20px 0;
+  z-index: 5;
 }
 
 .secthion-subtitle_theme_dark {
   color: white;
+  z-index: 5;
 }
 
 .table_theme_dark {
   background-color: transparent;
   z-index: 2;
+  z-index: 4;
 }
 
 .table__cell_theme_dark {
@@ -302,6 +301,8 @@
   right: -210px;
   height: 877px;
   width: 877px;
+  z-index: 3;
+
 }
 
 /*СЕКЦИЯ FOOTER*/
