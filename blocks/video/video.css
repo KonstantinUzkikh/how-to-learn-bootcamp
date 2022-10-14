@@ -1,0 +1,7 @@
+.video {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+}

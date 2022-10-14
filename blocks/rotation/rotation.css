@@ -1,0 +1,12 @@
+@keyframes infinete-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: infinete-rotation linear 20s infinite;
+}
