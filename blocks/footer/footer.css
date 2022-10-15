@@ -4,4 +4,6 @@
   position: relative;
   justify-content:center;
   min-height: 350px;
+  padding: 60px 0 40px;
+  box-sizing: border-box;
 }
